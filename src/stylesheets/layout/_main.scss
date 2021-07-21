@@ -15,8 +15,8 @@ body {
   font-size: 32px;
   //   border: red 2px solid;
   margin-bottom: 5px;
-  font-family: "Montserrat", sans-serif;
-  color: #454545;
+  font-family: $fontTitle;
+  color: $colorText;
   @media all and (min-width: 768px) {
     font-size: 50px;
   }
@@ -24,8 +24,8 @@ body {
 .section1-subtitle {
   //   border: red 2px solid;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  color: #454545;
+  font-family: $fontTitle;
+  color: $colorText;
   @media all and (min-width: 768px) {
     font-size: 24px;
   }
@@ -34,7 +34,7 @@ body {
 .section2 {
   height: 600px;
   // height: 500px;
-  background-color: #87b2b2;
+  background-color: $blue;
   //   border: red 2px solid;
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ body {
   text-align: justify;
   margin: 10px;
   font-family: "Roboto Slab", serif;
-  color: #454545;
+  color: $colorText;
   font-size: 14px;
   @media all and (min-width: 768px) {
     width: 500px;
@@ -107,7 +107,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto Slab", serif;
+  font-family: $fontText;
   // @media all and (min-width: 768px) {
   //   height: 300px;
   // }
@@ -117,14 +117,14 @@ body {
 }
 
 .section3-title {
-  background-color: #87b2b2;
+  background-color: $blue;
   width: 220px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: translate(0, -60%);
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontTitle;
 }
 
 .section3-skills {
@@ -148,7 +148,7 @@ body {
 }
 
 .section4 {
-  background-color: #f5f7f8;
+  background-color: $grey;
   min-width: 100%;
   display: flex;
   flex-direction: column;
@@ -162,15 +162,15 @@ body {
   // }
 }
 .section4-text {
-  background-color: #f5f7f8;
+  background-color: $grey;
   width: 220px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: translate(0, -100%);
-  font-family: "Montserrat", sans-serif;
-  color: #393636;
+  font-family: $fontTitle;
+  color: $colortItem;
   // @media all and (min-width: 1200px) {
   //   transform: translate(0, -200%);
   //   background-color: red;
@@ -226,8 +226,8 @@ body {
   justify-content: center;
   align-items: center;
   transform: translate(0, -200%);
-  font-family: "Montserrat", sans-serif;
-  color: #393636;
+  font-family: $fontTitle;
+  color: $colortItem;
 }
 .form {
   width: 450px;
@@ -247,11 +247,11 @@ body {
 .form--fieldSpace {
   width: 450px;
   height: 50px;
-  border: 1px solid #ced4da;
+  border: 1px solid $formBorder;
   padding: 5px;
   margin: 10px;
   border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontTitle;
 }
 
 .form--fieldSpace__mailphone {
@@ -266,7 +266,7 @@ body {
 
 .form--fieldSpace__phone {
   width: 225px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontTitle;
   @media all and (min-width: 768px) {
     width: 450px;
     height: 50px;
@@ -274,7 +274,7 @@ body {
 }
 .form--fieldSpace__mail {
   width: 210px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontTitle;
   @media all and (min-width: 768px) {
     width: 450px;
     height: 50px;
@@ -283,10 +283,10 @@ body {
 }
 .form--fieldSpaceComment {
   width: 450px;
-  border: 1px solid #ced4da;
+  border: 1px solid $formBorder;
   padding: 10px;
   border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontTitle;
   margin-bottom: 20px;
 }
 
@@ -295,13 +295,13 @@ body {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: $white;
   border-radius: 5px;
-  border: 1px solid #87b2b2;
-  color: #87b2b2;
-  font-family: "Roboto Slab", serif;
+  border: 1px solid $blue;
+  color: $blue;
+  font-family: $fontText;
 }
 .form--button:hover {
-  background-color: #87b2b2;
-  color: white;
+  background-color: $blue;
+  color: $white;
 }
