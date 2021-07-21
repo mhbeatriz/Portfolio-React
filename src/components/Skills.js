@@ -13,21 +13,21 @@ import photoshop from "../images/photoshop.png";
 
 const Skills = () => {
   return (
-    <section class="section3" id="skills">
-      <h3 class="section3-title">Herramientas</h3>
-      <div class="section3-skills">
-        <img class="skills" src={html} />
-        <img class="skills" src={css} />
-        <img class="skills" src={gulp} />
-        <img class="skills" src={git} />
-        <img class="skills" src={react} />
-        <img class="skills" src={js} />
-        <img class="skills" src={nodejs} />
-        <img class="skills" src={sass} />
-        <img class="skills" src={vscode} />
-        <img class="skills" src={slack} />
-        <img class="skills" src={illustrator} />
-        <img class="skills" src={photoshop} />
+    <section className="section3" id="skills">
+      <h3 className="section3-title">Herramientas</h3>
+      <div className="section3-skills">
+        <img className="skills" src={html} />
+        <img className="skills" src={css} />
+        <img className="skills" src={gulp} />
+        <img className="skills" src={git} />
+        <img className="skills" src={react} />
+        <img className="skills" src={js} />
+        <img className="skills" src={nodejs} />
+        <img className="skills" src={sass} />
+        <img className="skills" src={vscode} />
+        <img className="skills" src={slack} />
+        <img className="skills" src={illustrator} />
+        <img className="skills" src={photoshop} />
       </div>
     </section>
   );

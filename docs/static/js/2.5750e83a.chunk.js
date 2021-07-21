@@ -1049,10 +1049,10 @@
       b(function (e, t) {
         var n = e["aria-current"],
           a = void 0 === n ? "page" : n,
-          o = e.activeclassNameNameName,
+          o = e.activeclassNameNameNameName,
           i = void 0 === o ? "active" : o,
           f = e.activeStyle,
-          h = e.classNameNameName,
+          h = e.classNameNameNameName,
           m = e.exact,
           v = e.isActive,
           w = e.location,
@@ -1063,9 +1063,9 @@
           C = e.innerRef,
           _ = Object(c.a)(e, [
             "aria-current",
-            "activeclassNameNameName",
+            "activeclassNameNameNameName",
             "activeStyle",
-            "classNameNameName",
+            "classNameNameNameName",
             "exact",
             "isActive",
             "location",
@@ -1109,7 +1109,7 @@
             z = Object(u.a)(
               {
                 "aria-current": (T && a) || null,
-                classNameNameName: N,
+                classNameNameNameName: N,
                 style: L,
                 to: o,
               },
@@ -2139,7 +2139,7 @@
         }),
         [
           ["acceptCharset", "accept-charset"],
-          ["classNameNameName", "classNameName"],
+          ["classNameNameNameName", "classNameNameName"],
           ["htmlFor", "for"],
           ["httpEquiv", "http-equiv"],
         ].forEach(function (e) {

@@ -47,20 +47,20 @@
               Object(d.jsx)(j.b, {
                 to: "/character/".concat(e.character.id),
                 children: Object(d.jsx)("img", {
-                  classNameNameName: "image",
+                  classNameNameNameName: "image",
                   src: e.character.image,
                   alt: "Foto de ".concat(e.character.name),
                 }),
               }),
               Object(d.jsxs)("section", {
-                classNameNameName: "info-character",
+                classNameNameNameName: "info-character",
                 children: [
                   Object(d.jsx)("h3", {
-                    classNameNameName: "name",
+                    classNameNameNameName: "name",
                     children: e.character.name,
                   }),
                   Object(d.jsx)("p", {
-                    classNameNameName: "species",
+                    classNameNameNameName: "species",
                     children: e.character.species,
                   }),
                 ],
@@ -76,7 +76,7 @@
             return Object(d.jsx)(
               "li",
               {
-                classNameNameName: "character-card",
+                classNameNameNameName: "character-card",
                 children: Object(d.jsx)(m, { character: e }),
               },
               e.id
@@ -86,21 +86,21 @@
             children:
               0 === e.characters.length
                 ? Object(d.jsxs)("div", {
-                    classNameNameName: "notfound",
+                    classNameNameNameName: "notfound",
                     children: [
                       Object(d.jsx)("p", {
-                        classNameNameName: "tryagain",
+                        classNameNameNameName: "tryagain",
                         children: "Prueba a escribir otro personaje",
                       }),
                       " ",
                       Object(d.jsx)("img", {
                         src: b,
-                        classNameNameName: "img-notfound",
+                        classNameNameNameName: "img-notfound",
                       }),
                     ],
                   })
                 : Object(d.jsx)("ul", {
-                    classNameNameName: "list-characters",
+                    classNameNameNameName: "list-characters",
                     children: t,
                   }),
           });
@@ -110,7 +110,7 @@
       var O = function (e) {
           return Object(d.jsx)(d.Fragment, {
             children: Object(d.jsx)("input", {
-              classNameNameName: "inputname",
+              classNameNameNameName: "inputname",
               type: "text",
               placeholder: "Filtrar por nombre",
               value: e.filterName,
@@ -125,7 +125,7 @@
         x = function (e) {
           return Object(d.jsx)(d.Fragment, {
             children: Object(d.jsx)("input", {
-              classNameNameName: "inputspecie",
+              classNameNameNameName: "inputspecie",
               type: "text",
               placeholder: "Filtrar por especie",
               value: e.filterSpecies,
@@ -139,12 +139,12 @@
         },
         g = function (e) {
           return Object(d.jsx)("section", {
-            classNameNameName: "form-container",
+            classNameNameNameName: "form-container",
             children: Object(d.jsxs)("form", {
               onSubmit: function (e) {
                 e.preventDefault();
               },
-              classNameNameName: "form",
+              classNameNameNameName: "form",
               children: [
                 Object(d.jsx)(O, {
                   handleFilter: e.handleFilter,
@@ -162,18 +162,18 @@
         v = c.p + "static/media/song.d67d6eb6.mp3",
         y = function () {
           return Object(d.jsxs)("div", {
-            classNameNameName: "header",
+            classNameNameNameName: "header",
             children: [
               Object(d.jsxs)("audio", {
                 id: "song",
                 type: "audio/mp3",
                 controls: !0,
                 autoPlay: !0,
-                classNameNameName: "song",
+                classNameNameNameName: "song",
                 children: [" ", Object(d.jsx)("source", { src: v })],
               }),
               Object(d.jsx)("img", {
-                classNameNameName: "header-logo",
+                classNameNameNameName: "header-logo",
                 src: N,
               }),
             ],
@@ -182,51 +182,51 @@
         S = c.p + "static/media/arrow.2054374e.png",
         k = function (e) {
           return Object(d.jsxs)("div", {
-            classNameNameName: "containerdetail",
+            classNameNameNameName: "containerdetail",
             children: [
               Object(d.jsx)(y, {}),
               Object(d.jsx)(j.b, {
                 to: "/",
-                classNameNameName: "go-back",
+                classNameNameNameName: "go-back",
                 children: Object(d.jsx)("img", {
                   src: S,
-                  classNameNameName: "go-back-image",
+                  classNameNameNameName: "go-back-image",
                 }),
               }),
               Object(d.jsxs)("div", {
-                classNameNameName: "detail",
+                classNameNameNameName: "detail",
                 children: [
                   Object(d.jsx)("section", {
                     children: Object(d.jsx)("img", {
-                      classNameNameName: "image-detail",
+                      classNameNameNameName: "image-detail",
                       src: e.character.image,
                       alt: e.character.name,
                     }),
                   }),
                   Object(d.jsxs)("section", {
-                    classNameNameName: "info",
+                    classNameNameNameName: "info",
                     children: [
                       Object(d.jsx)("h1", {
-                        classNameNameName: "name-detail",
+                        classNameNameNameName: "name-detail",
                         children: e.character.name,
                       }),
                       Object(d.jsxs)("ul", {
-                        classNameNameName: "info-detail",
+                        classNameNameNameName: "info-detail",
                         children: [
                           Object(d.jsxs)("li", {
-                            classNameNameName: "detail-list",
+                            classNameNameNameName: "detail-list",
                             children: ["Status: ", e.character.status],
                           }),
                           Object(d.jsxs)("li", {
-                            classNameNameName: "detail-list",
+                            classNameNameNameName: "detail-list",
                             children: ["Specie: ", e.character.species],
                           }),
                           Object(d.jsxs)("li", {
-                            classNameNameName: "detail-list",
+                            classNameNameNameName: "detail-list",
                             children: ["Origin: ", e.character.origin],
                           }),
                           Object(d.jsxs)("li", {
-                            classNameNameName: "detail-list",
+                            classNameNameNameName: "detail-list",
                             children: ["Episode: ", e.character.episode],
                           }),
                         ],
@@ -241,13 +241,16 @@
         F = c.p + "static/media/rick.fb915d6f.png",
         w = function () {
           return Object(d.jsxs)("div", {
-            classNameNameName: "footer",
+            classNameNameNameName: "footer",
             children: [
               Object(d.jsx)("span", {
-                classNameNameName: "copy",
+                classNameNameNameName: "copy",
                 children: " \xa9 BeatrizMendoza",
               }),
-              Object(d.jsx)("img", { src: F, classNameNameName: "logofooter" }),
+              Object(d.jsx)("img", {
+                src: F,
+                classNameNameNameName: "logofooter",
+              }),
             ],
           });
         },
@@ -255,14 +258,14 @@
           (c(30),
           function () {
             return Object(d.jsxs)("section", {
-              classNameNameName: "notfound",
+              classNameNameNameName: "notfound",
               children: [
                 Object(d.jsx)("img", {
                   src: b,
-                  classNameNameName: "img-notfound",
+                  classNameNameNameName: "img-notfound",
                 }),
                 Object(d.jsx)("p", {
-                  classNameNameName: "tryagain",
+                  classNameNameNameName: "tryagain",
                   children: "Lo siento este personaje no existe",
                 }),
               ],
@@ -309,7 +312,7 @@
             });
           return Object(d.jsx)(i.c, {
             children: Object(d.jsxs)("div", {
-              classNameNameName: "container",
+              classNameNameNameName: "container",
               children: [
                 Object(d.jsxs)(i.a, {
                   exact: !0,
