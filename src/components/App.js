@@ -1,15 +1,21 @@
-import Header from "./Header";
+import "../stylesheets/App.scss";
+import React, { Component, Fragment } from "react";
+import Hero from "./Hero";
 import Footer from "./Footer";
 import Main from "./Main";
-import "../stylesheets/App.scss";
+import Menu from "./Menu";
+// import "../stylesheets/styles.scss";
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  );
-};
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Menu />
+        <Hero />
+        <Main />
+        <Footer />
+      </Fragment>
+    );
+  }
+}
 export default App;

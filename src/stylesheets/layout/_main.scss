@@ -2,35 +2,6 @@ body {
   min-width: 100%;
 }
 
-.section1 {
-  height: 300px;
-  //   border: blue 2px solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.section1-title {
-  font-size: 32px;
-  //   border: red 2px solid;
-  margin-bottom: 5px;
-  font-family: $fontTitle;
-  color: $colorText;
-  @media all and (min-width: 768px) {
-    font-size: 50px;
-  }
-}
-.section1-subtitle {
-  //   border: red 2px solid;
-  font-size: 16px;
-  font-family: $fontTitle;
-  color: $colorText;
-  @media all and (min-width: 768px) {
-    font-size: 24px;
-  }
-}
-
 .section2 {
   height: 600px;
   // height: 500px;

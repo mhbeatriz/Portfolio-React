@@ -6,14 +6,14 @@ import github from "../images/github.png";
 
 const Footer = () => {
   return (
-    <div classNameName="footer">
-      <img classNameName="guitar-footer" src={guitar} />
-      <small classNameName="copy">&copy; 2021 BeatrizMendoza</small>
-      <div classNameName="footer-links">
-        <img classNameName="links" src={linkedin} />
-        <img classNameName="links" src={twitter} />
-        <img classNameName="links" src={youtube} />
-        <img classNameName="links" src={github} />
+    <div className="footer">
+      <img className="guitar-footer" src={guitar} />
+      <small className="copy">&copy; 2021 BeatrizMendoza</small>
+      <div className="footer-links">
+        <img className="links" src={linkedin} />
+        <img className="links" src={twitter} />
+        <img className="links" src={youtube} />
+        <img className="links" src={github} />
       </div>
     </div>
   );
